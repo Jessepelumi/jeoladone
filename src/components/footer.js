@@ -1,19 +1,21 @@
 import { StyledFooter } from "../styles/footer.style";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <StyledFooter>
       <div>
-        Designed & Built by{" "}
         <a
-          href="https://www.linkedin.com/in/jeolad/"
+          href="https://github.com/Jessepelumi/jeolad-portfolio-v1/"
           target="_blank"
           rel="noreferrer"
         >
-          Jesse Adesina
+          Designed & Built by Jesse Adesina
         </a>
       </div>
-      <div>&copy; 2024. All rights reserved.</div>
+
+      <div>&copy; 2024 &mdash; {currentYear}. All rights reserved.</div>
     </StyledFooter>
   );
 };

@@ -8,14 +8,14 @@ export const StyledFooter = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.2rem;
   padding: 3rem;
 
   a {
     color: var(--gray);
+    text-decoration: none;
     &:hover {
-      color: var(--white);
-      text-decoration-color: var(--purple);
+      color: var(--purple);
     }
   }
 
