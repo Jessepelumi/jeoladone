@@ -40,7 +40,7 @@
     "serialize-javascript": "7.0.5",
     "svgo": "4.0.1",
     "underscore": "1.13.8",
-    "webpack-dev-server": "5.2.3",
+    "webpack-dev-server": "4.11.1",
     "workbox-build": "7.4.0",
     "workbox-webpack-plugin": "7.4.0"
   },
