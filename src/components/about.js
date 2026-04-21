@@ -9,30 +9,28 @@ const About = () => {
       <section>
         <div>
           <p>
-            I'm a software engineer passionate about building{" "}
-            <span>scalable</span>, <span>robust</span>, and{" "}
-            <span>user-focused</span> applications. I have a knack for crafting
-            simple yet elegant solutions — creating experiences that not only
-            look great but are meticulously built for <span>functionality</span>
-            , <span>performance</span>, and <span>usability</span>.
+            I am a software engineer driven by a fascination with complex
+            systems. I sit at the intersection of{" "}
+            <span>backend engineering</span> and <span>agentic AI</span>, where
+            I focus on building autonomous workflows that optimize human effort
+            and maximize collective output.
           </p>
           <p>
-            I'm committed to <span>continuous learning</span> and{" "}
-            <span>growth</span>. I'm excited to take on new challenges, explore
-            emerging technologies, and push the boundaries of my skills to build
-            even better, more impactful solutions.
+            My approach is rooted in the belief that great engineering is about
+            more than just writing code—it's about architecting elegant
+            solutions to messy problems. While I have a strong foundation in
+            full-stack web development, I am most at home in the backend,
+            designing the robust, scalable infrastructure that allows agentic
+            systems to operate with precision.
           </p>
           <p>
-            I thrive in collaborative environments, where I've had the
-            opportunity to contribute to high-performing teams. I value{" "}
-            <span>clear communication</span>, <span>shared vision</span>, and a
-            strong sense of <span>ownership</span> — believing that great
-            products are built through collective effort.
+            I thrive in environments that value <span>clear communication</span>
+            , <span>shared vision</span>, and <span>ownership</span>.
           </p>
           <p>
-            I'm looking to expand my network and explore new opportunities for
-            collaboration. You can send me an email or reach out to me via
-            LinkedIn.
+            I'm always open to connecting with fellow engineers and exploring
+            new opportunities for collaboration. You can send me an email or
+            reach out to me via LinkedIn.
           </p>
           <p>
             In case you're wondering, <span>JEOLAD</span> is short for{" "}
