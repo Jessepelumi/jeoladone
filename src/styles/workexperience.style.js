@@ -91,5 +91,11 @@ export const StyledWorkExperience = styled.div`
         }
       }
     }
+    article {
+      div {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
     `}
 `;
