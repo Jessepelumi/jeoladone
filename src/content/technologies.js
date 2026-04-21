@@ -8,6 +8,6 @@ export const technologies = [
   { id: 7, name: "Flutter" },
   { id: 8, name: "Docker" },
   { id: 9, name: "PostgreSQL & MongoDB" },
-  { id: 10, name: "AWS (S3)" },
+  { id: 10, name: "AWS" },
   { id: 11, name: "Git & GitHub" },
 ];
