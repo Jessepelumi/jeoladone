@@ -3,11 +3,61 @@ import { GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
 export const projectlist = [
   {
     id: 1,
+    image: "Zimna.png",
+    project_title: "Zimna AI",
+    description:
+      "Zimna AI is an intelligent goal-execution platform that transforms high-level ambitions into clear, structured, and actionable plans. It uses AI to break goals down into manageable tasks, schedule them effectively, and track real progress over time. With its adaptive guidance, Zimna helps individuals and teams stay consistent, focused, and actually achieve what they set out to do.",
+    tools: [
+      "Python",
+      "TypeScript",
+      "Django",
+      "Next.js",
+      "PostgreSQL",
+      "Docker",
+    ],
+    links: [
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/zimna",
+      },
+      {
+        icon: <ArrowSquareOut size={24} />,
+        link: "https://github.com/Jessepelumi/zimna",
+      },
+    ],
+  },
+  {
+    id: 2,
+    image: "Segmentor.png",
+    project_title: "Segmentor",
+    description:
+      "Segmentor is a Go-based video processing and streaming system that ingests uploaded videos, transcodes them into HLS format using FFmpeg, and delivers them through a segmented streaming pipeline for efficient playback. The system demonstrates how modern video platforms optimize startup time and buffering by serving media in small chunks rather than as a single file.",
+    tools: ["Go", "FFmpeg", "HLS"],
+    links: [
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/segmentor",
+      },
+      {
+        icon: <ArrowSquareOut size={24} />,
+        link: "https://github.com/Jessepelumi/segmentor",
+      },
+    ],
+  },
+  {
+    id: 3,
     image: "kavodengineering.png",
-    project_title: "Kavod Engineering Services",
+    project_title: "Zimna AI",
     description:
       "A professional website for KAVOD — a leading expert in materials quality assurance and quality control inspection. Built to streamline client engagement, the website features a dynamic service inquiry form, responsive design, and optimized user experience for prospective clients across various industries",
-    tools: ["Next.js", "TypeScript", "Tailwind", "AppsScript"],
+    tools: [
+      "Python",
+      "TypeScript",
+      "Django",
+      "Next.js",
+      "PostgreSQL",
+      "Docker",
+    ],
     links: [
       {
         icon: <GithubLogo size={24} />,
@@ -20,7 +70,7 @@ export const projectlist = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     image: "eclipsered.png",
     project_title: "EclipseRed",
     description:
