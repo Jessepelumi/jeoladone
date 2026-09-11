@@ -1,29 +1,50 @@
 import { GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
+import { Globe } from "@phosphor-icons/react/dist/ssr";
 
 export const projectlist = [
   {
     id: 1,
-    image: "Zimna.png",
-    project_title: "Zimna AI",
+    image: "yiyara.png",
+    project_title: "Yiyara",
     description:
-      "Zimna AI is an intelligent goal-execution platform that transforms high-level ambitions into clear, structured, and actionable plans. It uses AI to break goals down into manageable tasks, schedule them effectively, and track real progress over time. With its adaptive guidance, Zimna helps individuals and teams stay consistent, focused, and actually achieve what they set out to do.",
+      "Yiyara is an AI-powered goal-planning platform that transforms open-ended ambitions into structured SMART goals and calendar-ready tasks with clear due dates. Users can refine their plans through contextual conversations, review AI-proposed changes before approving them, and track progress as their goals evolve. Versioned plan history and rollback keep planning flexible while ensuring users remain in control",
     tools: [
       "Python",
       "TypeScript",
       "Django",
+      "Django REST Framework",
       "Next.js",
       "PostgreSQL",
       "Docker",
+      "Google Gemini API",
     ],
     links: [
       {
         icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/zimna",
+        link: "https://github.com/Jessepelumi/yiyara",
+      },
+      {
+        icon: <Globe size={24} />,
+        link: "https://github.com/Jessepelumi/yiyara_",
       },
     ],
   },
   {
     id: 2,
+    image: "syrax.png",
+    project_title: "Syrax",
+    description:
+      "A secure, mobile-first platform for collecting large files directly into cloud storage. Senders can upload through a shared link without registering, while resumable transfers and automatic recovery provide reliable delivery across unstable connections",
+    tools: ["TypeScript", "Next.js", "PostgreSQL", "Google Cloud"],
+    links: [
+      {
+        icon: <GithubLogo size={24} />,
+        link: "https://github.com/Jessepelumi/syrax",
+      },
+    ],
+  },
+  {
+    id: 3,
     image: "Segmentor.png",
     project_title: "Segmentor",
     description:
@@ -37,7 +58,7 @@ export const projectlist = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     image: "eclipsered.png",
     project_title: "EclipseRed",
     description:
@@ -55,7 +76,7 @@ export const projectlist = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     image: "",
     project_title: "FundCare",
     description:
@@ -69,24 +90,6 @@ export const projectlist = [
       {
         icon: <ArrowSquareOut size={24} />,
         link: "https://marketplace.visualstudio.com/items?itemName=AdesinaJesse.eclipseRed",
-      },
-    ],
-  },
-  {
-    id: 5,
-    image: "kavodengineering.png",
-    project_title: "Kavod Engineering",
-    description:
-      "A professional website for KAVOD — a leading expert in materials quality assurance and quality control inspection. Built to streamline client engagement, the website features a dynamic service inquiry form, responsive design, and optimized user experience for prospective clients across various industries",
-    tools: ["TypeScript", "Next.js", "Tailwind", "AppsScript"],
-    links: [
-      {
-        icon: <GithubLogo size={24} />,
-        link: "https://github.com/Jessepelumi/kavodengineering",
-      },
-      {
-        icon: <ArrowSquareOut size={24} />,
-        link: "https://www.kavodengineering.com",
       },
     ],
   },
