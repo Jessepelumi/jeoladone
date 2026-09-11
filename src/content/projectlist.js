@@ -12,11 +12,10 @@ export const projectlist = [
       "Python",
       "TypeScript",
       "Django",
-      "Django REST Framework",
       "Next.js",
       "PostgreSQL",
       "Docker",
-      "Google Gemini API",
+      "Gemini API",
     ],
     links: [
       {
